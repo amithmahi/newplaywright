@@ -21,7 +21,7 @@ jobs:
       TESTGROUP: android
     environment:
       name: android
-      url: https://testresults.marcusfelling.com/${{ env.TESTGROUP }}
+      url: https://amithmahi.github.io/${{ env.TESTGROUP }}
     steps:
       - uses: actions/checkout@v3
         with:
@@ -69,7 +69,7 @@ jobs:
       TESTGROUP: chrome-extension
     environment:
       name: chrome-extension
-      url: https://testresults.marcusfelling.com/${{ env.TESTGROUP }}
+      url: https://amithmahi.github.io/${{ env.TESTGROUP }}
     steps:
       - uses: actions/checkout@v3
         with:
@@ -116,7 +116,7 @@ jobs:
       TESTGROUP: fixtures
     environment:
       name: fixtures
-      url: https://testresults.marcusfelling.com/${{ env.TESTGROUP }}
+      url: https://amithmahi.github.io/${{ env.TESTGROUP }}
     steps:
       - uses: actions/checkout@v3
         with:
@@ -159,7 +159,7 @@ jobs:
       API_TOKEN: ${{ secrets.API_TOKEN }}
     environment:
       name: github-api
-      url: https://testresults.marcusfelling.com/${{ env.TESTGROUP }}
+      url: https://amithmahi.github.io/${{ env.TESTGROUP }}
     steps:
       - uses: actions/checkout@v3
         with:
@@ -258,7 +258,7 @@ jobs:
       BASEURL: https://playwright.dev
 
   publishTestResults:
-    name: "Publish Test Results to to testresults.marcusfelling.com"
+    name: "Publish Test Results to to amithmahi.github.io"
     needs:
       [
         accessibilityTests,
