@@ -4,7 +4,7 @@ This repo is used to demo various testing scenarios with [Playwright](https://pl
 
 The [test.yml](../../actions/workflows/test.yml) GitHub Action workflow is used to:
 
-## Run Playwright example tests
+## Run Playwright example test
 
 **[accessibility](./accessibility/tests/example.spec.ts)** - runs accessibility checks against [https://playwright.dev/docs/accessibility-testing](https://playwright.dev/docs/accessibility-testing)
 
