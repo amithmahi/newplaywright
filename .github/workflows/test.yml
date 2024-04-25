@@ -203,7 +203,7 @@ jobs:
       PW_PWD: ${{ secrets.PW_PWD }}
     environment:
       name: oauth
-      url: https://testresults.marcusfelling.com/${{ env.TESTGROUP }}
+      url: https://amithmahi.github.io/${{ env.TESTGROUP }}
     steps:
       - uses: actions/checkout@v3
         with:
